@@ -15,6 +15,7 @@ export class CustomDirective implements OnInit {
       
   }
   @HostListener('mouseover')onMouseover(){
+    //This is hostlisener COMMIT
     // this.rendere.setStyle(this.element.nativeElement,"background-color",'blue')
     // this.rendere.setStyle(this.element.nativeElement, 'color','white')
     // this.rendere.setStyle(this.element.nativeElement,"font-size",'60px')
